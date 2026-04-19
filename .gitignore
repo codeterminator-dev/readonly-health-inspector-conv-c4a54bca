@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+
+# Secrets / local env
+.env
+.env.*
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Worker task artifacts
+leader-task.md
+leader-task.json
+docker.stdout.log
+docker.stderr.log
